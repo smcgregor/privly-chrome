@@ -38,6 +38,10 @@
       "all_frames": true,
       "js": ["javascripts/content_scripts/post_new_link.js",
              "javascripts/content_scripts/privly.js"]
+    },
+    {
+      "matches": ["https://login.persona.org/sign_in"],
+      "js": ["javascripts/content_scripts/login.persona.org.js"]
     }
   ]
 }
